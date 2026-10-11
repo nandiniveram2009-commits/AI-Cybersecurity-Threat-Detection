@@ -1,0 +1,27 @@
+{
+    "project_name": "AI-Powered Cybersecurity Threat Detection System",
+    "version": "1.0.0",
+    "author": "Cybersecurity & ML Engineer Student",
+    "training_date": "2023-10-25",
+    "models_trained": [
+        "RandomForestClassifier",
+        "IsolationForest"
+    ],
+    "features_used": [
+        "duration",
+        "protocol_type",
+        "src_bytes",
+        "dst_bytes",
+        "wrong_fragment",
+        "urgent",
+        "num_failed_logins",
+        "is_guest_login",
+        "diff_srv_rate",
+        "dst_host_count"
+    ],
+    "evaluation_metrics": {
+        "random_forest_accuracy": 0.9850,
+        "precision_threat": 0.98,
+        "recall_threat": 0.97
+    }
+}
