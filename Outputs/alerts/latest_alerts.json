@@ -1,0 +1,62 @@
+[
+    {
+        "timestamp": "2023-10-25T14:30:01.102456Z",
+        "packet_id": 1,
+        "classification": "BENIGN",
+        "severity": "LOW",
+        "confidence_score": 98.45,
+        "source_metrics": {
+            "duration": 0.1,
+            "src_bytes": 200.0,
+            "failed_logins": 0
+        }
+    },
+    {
+        "timestamp": "2023-10-25T14:30:01.103120Z",
+        "packet_id": 2,
+        "classification": "MALICIOUS",
+        "severity": "HIGH",
+        "confidence_score": 92.50,
+        "source_metrics": {
+            "duration": 15.4,
+            "src_bytes": 10.0,
+            "failed_logins": 3
+        }
+    },
+    {
+        "timestamp": "2023-10-25T14:30:01.103510Z",
+        "packet_id": 3,
+        "classification": "BENIGN",
+        "severity": "LOW",
+        "confidence_score": 99.12,
+        "source_metrics": {
+            "duration": 0.0,
+            "src_bytes": 4500.0,
+            "failed_logins": 0
+        }
+    },
+    {
+        "timestamp": "2023-10-25T14:30:01.103980Z",
+        "packet_id": 4,
+        "classification": "MALICIOUS",
+        "severity": "MEDIUM",
+        "confidence_score": 78.40,
+        "source_metrics": {
+            "duration": 5.2,
+            "src_bytes": 20.0,
+            "failed_logins": 0
+        }
+    },
+    {
+        "timestamp": "2023-10-25T14:30:01.104410Z",
+        "packet_id": 5,
+        "classification": "BENIGN",
+        "severity": "LOW",
+        "confidence_score": 95.80,
+        "source_metrics": {
+            "duration": 0.05,
+            "src_bytes": 1500.0,
+            "failed_logins": 0
+        }
+    }
+]
